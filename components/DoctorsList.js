@@ -1,9 +1,7 @@
-import { ScrollView, StyleSheet, View, Text, FlatList } from "react-native";
+import { ScrollView, StyleSheet, View, Text } from "react-native";
 import { DoctorCard } from "./DoctorCard";
-import doctors from '../api/doctors.json';
 
 export const DoctorsList = ({ list }) => {
-
   return (
     <ScrollView style={{ width: '100%' }} contentContainerStyle={{ alignItems: 'center', paddingHorizontal: 18, flex: 1 }}>
       <View style={styles.header}>
@@ -32,8 +30,6 @@ export const DoctorsList = ({ list }) => {
             Sorry, nothing was found... :c
           </Text>
         )}
-
-      
     </ScrollView>
   );
 }

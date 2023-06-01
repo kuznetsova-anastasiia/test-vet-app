@@ -1,4 +1,4 @@
-import { StyleSheet, View } from 'react-native';
+import { ScrollView, StyleSheet, View } from 'react-native';
 import { Search } from '../components/Search';
 import { DoctorsList } from '../components/DoctorsList';
 import { useEffect, useState } from 'react';
@@ -35,8 +35,7 @@ export const Home = () => {
           enableHighAccuracy: true,
         });
 
-        dispatch(setCurrentGeo, { latitude: location.coords.latitude, longitude: location.coords.longitude });
-        // setCurrentCoords({ latitude: location.coords.latitude, longitude: location.coords.longitude });
+        dispatch(setCurrentGeo({ latitude: location.coords.latitude, longitude: location.coords.longitude }));
       } catch {
         console.log('nope');
         setGeoError(true);
@@ -52,7 +51,12 @@ export const Home = () => {
           <Search />
         </View>
 
-        <DoctorsList list={filteredDoctors} />
+        <ScrollView
+          style={{ width: '100%' }}
+        >
+          <DoctorsList list={filteredDoctors} />
+        </ScrollView>
+        
 
         {geoError && (
           <ErrorMessage message="Cant't access to location" setError={setGeoError} isError={geoError} />
