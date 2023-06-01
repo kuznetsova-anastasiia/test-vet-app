@@ -7,6 +7,16 @@ This repository contains the code for the Test Vet App, a web application for ma
 - **Searching by date** Users can find doctors depending on available dates.
 - **Searching by geo** Users can find doctodepending on the chosen radius according to their current geo.
 
+## Preview
+
+Scan the QR code
+
+![image](https://github.com/kuznetsova-anastasiia/test-vet-app/assets/111063225/bd4193b2-1622-446c-a2f7-a0b78d134506)
+
+Or use a link
+
+exp://u.expo.dev/update/d0697d4f-2487-45e5-a5f1-dcba05809c65
+
 ![vet-app-preview](https://github.com/kuznetsova-anastasiia/test-vet-app/assets/111063225/57105c17-8ecb-4254-97d1-8a9d930922ac)
 
 ## Installation
