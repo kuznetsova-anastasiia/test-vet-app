@@ -1,0 +1,62 @@
+[
+  {
+    "photo": "https://img.freepik.com/free-photo/beautiful-young-female-doctor-looking-camera-office_1301-7807.jpg?w=2000",
+    "fullName": "Sophia James",
+    "position": "Veterinary Dentist",
+    "rating": 4.9,
+    "location": {
+      "name": "28 Oakwood Avenue, New York",
+      "longitude": "-73.678060",
+      "latitude": "42.742510"
+    },
+    "available": "6/1/2023"
+  },
+  {
+    "photo": "",
+    "fullName": "John Doe",
+    "position": "Veterinary Neurosurgeon",
+    "rating": 4.3,
+    "location": {
+      "name": "28 Oakwood Avenue, New York",
+      "longitude": "-73.678060",
+      "latitude": "42.742510"
+    },
+    "available": "6/2/2023"
+  },
+  {
+    "photo": "",
+    "fullName": "Isabella Ava",
+    "position": "Veterinary Doctor",
+    "rating": 4.5,
+    "location": {
+      "name": " 7 Zwickauer strasse, Gossnitz",
+      "longitude": "12.431330",
+      "latitude": "50.886730"
+    },
+    "available": "6/1/2023"
+  },
+  {
+    "photo": "",
+    "fullName": "Meveline Cairley",
+    "position": "Veterinary Doctor",
+    "rating": 4.8,
+    "location": {
+      "name": "24 Altenburger Strasse, Gossnitz",
+      "longitude": "12.435000",
+      "latitude": "50.895230"
+    },
+    "available": "6/2/2023"
+  },
+  {
+    "photo": "",
+    "fullName": "Camryn Marks",
+    "position": "Veterinary Doctor",
+    "rating": 3.9,
+    "location": {
+      "name": "31 Zwickauer strasse, Altenburg",
+      "longitude": "12.435750",
+      "latitude": "50.978060"
+    },
+    "available": "6/3/2023"
+  }
+]
