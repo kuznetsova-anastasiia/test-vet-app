@@ -7,7 +7,7 @@ This repository contains the code for the Test Vet App, a web application for ma
 - **Searching by date** Users can find doctors depending on available dates.
 - **Searching by geo** Users can find doctodepending on the chosen radius according to their current geo.
 
-https://github.com/kuznetsova-anastasiia/test-vet-app/assets/111063225/359508ff-8248-43ed-bb34-77a99a6a0ceb
+![vet-app-preview](https://github.com/kuznetsova-anastasiia/test-vet-app/assets/111063225/57105c17-8ecb-4254-97d1-8a9d930922ac)
 
 ## Installation
 
